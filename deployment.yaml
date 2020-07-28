@@ -16,7 +16,7 @@ spec:
       containers:
       - command:
         - /app/sample-app
-        image: jandebryan/sample-app:latest
+        image: jandebryan/sample-app:353d76a
         name: sample-app
         ports:
         - containerPort: 8080
